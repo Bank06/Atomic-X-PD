@@ -1,81 +1,9 @@
-local notifications = loadstring(game:HttpGet(("https://raw.githubusercontent.com/bankfull/Noti/main/AbstractPoo's%20Noti%20Lib"),true))()
+--[
+Made By : Scratch#4418 (957619038907924510)
+Features: Soon
+Changelogs: Soon
+Discord Server: https://discord.gg/tBqT839XTN  
+--]
 
-notifications:message{
-    Title = "Atomic <font color='rgb(148, 0, 211)'>X</font> - v1.0",
-    Description = "Server Type ('Public')",
-    Icon = 6023426926
-}
 
-wait(5)
-
-notifications:message{
-    Title = "Atomic <font color='rgb(148, 0, 211)'>X</font> - v1.0",
-    Description = "Updated, 20/02/2023!",
-    Icon = 6023426926
-}
-
-wait(5)
-
-setclipboard('discord.gg/tBqT839XTN')
-
-notifications:message{
-    Title = "<font color='rgb(148, 0, 211)'>Official</font> Discord Server",
-    Description = "Copied To Clipboard!",
-    Icon = 6023426926
-}
-
-wait(5)
-
-notifications:message{
-    Title = "Atomic <font color='rgb(148, 0, 211)'>X</font> - v1.0",
-    Description = "Loading...",
-    Icon = 6023426926
-}
-
-wait(5)
-
-loadstring(game:HttpGet(("https://paste.fo/raw/94fed91925b2"),true))()
-
-wait(4)
-
-loadstring(game:HttpGet(("https://paste.fo/raw/a59399445b36"),true))()
-
-notifications:message{
-    Title = "Atomic <font color='rgb(148, 0, 211)'>X</font> - v1.0",
-    Description = "Basic ESP Loaded!",
-    Icon = 6023426926
-}
-
-loadstring(game:HttpGet(("https://paste.fo/raw/60231ae3d1f1"),true))()
-
-notifications:message{
-    Title = "Atomic <font color='rgb(148, 0, 211)'>X</font> - v1.0",
-    Description = "Aimlock Loaded, Keybind 'MouseButton2'.",
-    Icon = 6023426926
-}
-
-wait(5)
-
-notifications:message{
-    Title = "Atomic <font color='rgb(148, 0, 211)'>X</font> - v1.0",
-    Description = "Finished!",
-    Icon = 6023426926
-}
-
--- Player Joined </>
-
-game.Players.PlayerAdded:Connect(function(player)
-    notifications:message{
-    Title = "Atomic <font color='rgb(148, 0, 211)'>X</font> - v1.0",
-    Description = (player.DisplayName .. " Joined The Server!"),
-}
-end)
-
--- Player Left </>
-
-game.Players.PlayerRemoving:Connect(function(player)
-	notifications:message{
-    Title = "Atomic <font color='rgb(148, 0, 211)'>X</font> - v1.0",
-    Description = (player.DisplayName .. " Left The Server!"),
-}
-end)
+local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v8,v9)local v12={};for v13=(3 + 1) -3, #v8 do v6(v12,v0(v4(v1(v2(v8,v13,v13 + (776 -(329 + 61 + 385)))),v1(v2(v9,(2 -1) + ((v13-1)% #v9),1 + ((v13-1)% #v9) + (1045 -((362 -(32 + 97)) + (2206 -(1169 + 226)))))))%(1239 -(505 + 478))));end return v5(v12);end local v10=loadstring(game:HttpGet("https://raw.githubusercontent.com/bankfull/Noti/main/AbstractPoo's%20Noti%20Lib",true))();v10:message({[v7("\252\168\35\232\120","\168\193\87\132\29")]="Atomic <font color='rgb(148, 0, 211)'>X</font> - v1.0",[v7("\32\197\239\230\4\212\232\85\13\207\242","\100\160\156\133\118\189\152\33")]="Server Type ('Public')",[v7("\120\54\135\231","\49\85\232\137\151\121\190\214")]=6023427426 -(252 + (1935 -(1363 + 324)))});wait((17 -12) + 0);v10:message({[v7("\127\123\93\15\57","\43\18\41\99\92\74")]="Atomic <font color='rgb(148, 0, 211)'>X</font> - v1.0",[v7("\55\4\180\95\27\255\39\61\26\14\169","\115\97\199\60\105\150\87\73")]="Updated, 20/02/2023!",[v7("\9\91\31\190","\64\56\112\208\135\197\192\217")]=6023426926});wait((14 -6) -3);setclipboard("discord.gg/tBqT839XTN");v10:message({[v7("\177\72\228\28\170","\229\33\144\112\207\184\113")]="<font color='rgb(148, 0, 211)'>Official</font> Discord Server",[v7("\44\201\154\126\37\17\195\28\197\134\115","\104\172\233\29\87\120\179")]=v7("\222\2\3\48\196\207\189\57\28\121\226\199\244\29\17\54\192\217\249\76","\157\109\115\89\161\171"),[v7("\252\14\215\1","\181\109\184\111\76")]=6023426926 -0});wait(3 + 2);v10:message({[v7("\198\141\165\32\202","\146\228\209\76\175\196\146")]="Atomic <font color='rgb(148, 0, 211)'>X</font> - v1.0",[v7("\212\203\228\201\80\208\224\218\254\197\76","\144\174\151\170\34\185")]=v7("\13\119\166\163\22\38\38\54\233\233","\65\24\199\199\127\72"),[v7("\131\0\65\3","\202\99\46\109\34\224")]=6023428783 -(139 + 1718)});wait(3 + 1 + 1 + 0);loadstring(game:HttpGet("https://paste.fo/raw/94fed91925b2",true))();wait(129 -(28 + 16 + 81));loadstring(game:HttpGet("https://paste.fo/raw/a59399445b36",true))();v10:message({[v7("\99\170\0\58\21","\55\195\116\86\112\196")]="Atomic <font color='rgb(148, 0, 211)'>X</font> - v1.0",[v7("\202\239\152\52\252\227\155\35\231\229\133","\142\138\235\87")]=v7("\203\200\107\124\26\129\240\218\249\56\89\22\192\209\236\205\57","\137\169\24\21\121\161\181"),[v7("\200\195\229\176","\129\160\138\222\141\78\72\237")]=6023426926});loadstring(game:HttpGet("https://paste.fo/raw/60231ae3d1f1",true))();v10:message({[v7("\210\55\54\44\7","\134\94\66\64\98\100\168")]="Atomic <font color='rgb(148, 0, 211)'>X</font> - v1.0",[v7("\223\10\69\12\233\6\70\27\242\0\88","\155\111\54\111")]="Aimlock Loaded, Keybind 'MouseButton2'.",[v7("\152\47\244\3","\209\76\155\109\89\60")]=6023426926});wait(5);v10:message({[v7("\249\19\166\252\200","\173\122\210\144")]="Atomic <font color='rgb(148, 0, 211)'>X</font> - v1.0",[v7("\19\183\14\214\33\170\248\231\62\189\19","\87\210\125\181\83\195\136\147")]=v7("\140\249\209\86\66\179\129\174\177","\202\144\191\63\49\219\228"),[v7("\234\57\139\166","\163\90\228\200\60\156\204")]=7340099992 -1316673066});game.Players.PlayerAdded:Connect(function(v11)v10:message({[v7("\48\209\156\66\181","\100\184\232\46\208")]="Atomic <font color='rgb(148, 0, 211)'>X</font> - v1.0",[v7("\175\163\71\205\229\130\182\64\199\248\133","\235\198\52\174\151")]=v11.DisplayName   .. v7("\244\148\11\196\212\77\176\254\48\197\223\8\135\187\22\219\223\90\245","\212\222\100\173\186\40")});end);game.Players.PlayerRemoving:Connect(function(v11)v10:message({[v7("\129\86\36\171\94","\213\63\80\199\59")]="Atomic <font color='rgb(148, 0, 211)'>X</font> - v1.0",[v7("\175\199\8\27\153\203\11\12\130\205\21","\235\162\123\120")]=v11.DisplayName   .. v7("\246\168\5\48\59\182\39\35\179\196\51\51\61\224\22\57\247","\214\228\96\86\79\150\115\75")});end);
