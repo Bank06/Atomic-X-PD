@@ -1,2 +1,9 @@
 # Atomic-X
-Best Hub For Project Delta
+
+DONT FUCKING BE SKID
+
+TAKE UR TIME AND DONT PAY FOR EXPINSIVE SHIT OK !!!
+
+Best Hub For Project Delta!
+
+BETER THAT BURN HUB LOL!
