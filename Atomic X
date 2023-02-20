@@ -1,0 +1,81 @@
+local notifications = loadstring(game:HttpGet(("https://raw.githubusercontent.com/bankfull/Noti/main/AbstractPoo's%20Noti%20Lib"),true))()
+
+notifications:message{
+    Title = "Atomic <font color='rgb(148, 0, 211)'>X</font> - v1.0",
+    Description = "Server Type ('Public')",
+    Icon = 6023426926
+}
+
+wait(5)
+
+notifications:message{
+    Title = "Atomic <font color='rgb(148, 0, 211)'>X</font> - v1.0",
+    Description = "Updated, 20/02/2023!",
+    Icon = 6023426926
+}
+
+wait(5)
+
+setclipboard('discord.gg/tBqT839XTN')
+
+notifications:message{
+    Title = "<font color='rgb(148, 0, 211)'>Official</font> Discord Server",
+    Description = "Copied To Clipboard!",
+    Icon = 6023426926
+}
+
+wait(5)
+
+notifications:message{
+    Title = "Atomic <font color='rgb(148, 0, 211)'>X</font> - v1.0",
+    Description = "Loading...",
+    Icon = 6023426926
+}
+
+wait(5)
+
+loadstring(game:HttpGet(("https://paste.fo/raw/94fed91925b2"),true))()
+
+wait(4)
+
+loadstring(game:HttpGet(("https://paste.fo/raw/a59399445b36"),true))()
+
+notifications:message{
+    Title = "Atomic <font color='rgb(148, 0, 211)'>X</font> - v1.0",
+    Description = "Basic ESP Loaded!",
+    Icon = 6023426926
+}
+
+loadstring(game:HttpGet(("https://paste.fo/raw/60231ae3d1f1"),true))()
+
+notifications:message{
+    Title = "Atomic <font color='rgb(148, 0, 211)'>X</font> - v1.0",
+    Description = "Aimlock Loaded, Keybind 'MouseButton2'.",
+    Icon = 6023426926
+}
+
+wait(5)
+
+notifications:message{
+    Title = "Atomic <font color='rgb(148, 0, 211)'>X</font> - v1.0",
+    Description = "Finished!",
+    Icon = 6023426926
+}
+
+-- Player Joined </>
+
+game.Players.PlayerAdded:Connect(function(player)
+    notifications:message{
+    Title = "Atomic <font color='rgb(148, 0, 211)'>X</font> - v1.0",
+    Description = (player.DisplayName .. " Joined The Server!"),
+}
+end)
+
+-- Player Left </>
+
+game.Players.PlayerRemoving:Connect(function(player)
+	notifications:message{
+    Title = "Atomic <font color='rgb(148, 0, 211)'>X</font> - v1.0",
+    Description = (player.DisplayName .. " Left The Server!"),
+}
+end)
